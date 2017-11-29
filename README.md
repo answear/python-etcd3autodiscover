@@ -18,7 +18,7 @@ _etcd._tcp.svc.internal	service = 0 0 2379 etcd2.internal.
 ```
 
 ```
-from etc3autodiscover import Etcd3Autodiscover
+from etcd3autodiscover import Etcd3Autodiscover
 
 etcd = Etcd3Autodiscover(host='svc.internal', port=2379, timeout=5)
 client = etcd.connect()
