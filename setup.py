@@ -14,7 +14,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
-        'Programming Language :: Python :: 2.7'
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5'
     ],
     keywords='',
     package_dir={'': 'src'},
@@ -27,4 +28,3 @@ setup(
     setup_requires=['setuptools_scm'],
     use_scm_version=True,
 )
-
