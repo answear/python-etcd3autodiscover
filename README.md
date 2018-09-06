@@ -1,7 +1,34 @@
 python-etcd3autodiscover
 ========================
 
-Wrapper around python-etcd3 to support DNS SRV discovery of endpoints 
+Wrapper around python-etcd3 to support DNS SRV discovery of endpoints. Supports Python 2.7 and 3.5.
+
+
+Installation
+============
+
+Install packages:
+
+*  python3
+*  python3-pip
+*  python3-setuptools
+*  python3-wheel
+*  python3-dnspython
+
+Install the package itself:
+
+```
+git checkout 0.2.1
+python3 setup.py build
+sudo python3 setup.py install
+```
+
+or
+
+```
+pip3 install --process-dependency-links git+https://github.com/sysoperator/python-etcd3autodiscover.git@0.2.1
+```
+
 
 Usage
 =====
