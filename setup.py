@@ -5,9 +5,9 @@ from setuptools import setup, find_packages
 setup(
     name='etcd3autodiscover',
     description='Wrapper around python-etcd3 to support DNS SRV discovery of endpoints',
-    url='git@github.com:sysoperator/python-etcd3autodiscover.git',
+    url='git@github.com:answear/python-etcd3autodiscover.git',
     author='Piotr Mazurkiewicz',
-    author_email='piotr.mazurkiewicz@sysoperator.pl',
+    author_email='piotr.mazurkiewicz@wearco.pl',
     license='MIT',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
