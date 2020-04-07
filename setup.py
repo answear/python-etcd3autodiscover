@@ -23,7 +23,7 @@ setup(
     install_requires=[
         'dnspython',
         'tornado>=4.5.0',
-        'etcd3<0.12.0',
+        'etcd3',
     ],
     setup_requires=['setuptools_scm'],
     use_scm_version=True,

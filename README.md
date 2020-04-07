@@ -15,10 +15,16 @@ Install packages:
 *  python3-wheel
 *  python3-dnspython
 
+For etcd3 dependency:
+
+*  python3-dev
+*  gcc
+*  g++
+
 Install the package itself:
 
 ```
-git checkout 1.0.1
+git checkout 1.0.2
 python3 setup.py build
 sudo python3 setup.py install
 ```
@@ -26,7 +32,7 @@ sudo python3 setup.py install
 or
 
 ```
-pip3 install --process-dependency-links git+https://github.com/answear/python-etcd3autodiscover.git@1.0.1
+pip3 install --process-dependency-links git+https://github.com/answear/python-etcd3autodiscover.git@1.0.2
 ```
 
 
